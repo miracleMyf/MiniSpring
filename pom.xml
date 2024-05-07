@@ -14,6 +14,7 @@
 
     <dependencies>
         <dependency>
+            <!-- dom4j 包封装了许多操作 XML 文件的方法(xml解析工具)-->
         <groupId>dom4j</groupId>
         <artifactId>dom4j</artifactId>
         <version>1.6.1</version>

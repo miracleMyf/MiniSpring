@@ -1,8 +1,10 @@
 package com.minis.beans;
 
 public class BeanDefinition {
-    private String id;
+    private String id;  //用来给该类起别名
     private String className;
+
+    //全参数的构造方法
     public BeanDefinition(String id, String className) {
         this.id = id;
         this.className = className;
